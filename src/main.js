@@ -9,7 +9,7 @@ import 'element-ui/lib/theme-chalk/index.css'
 Vue.use(ElementUI)
 
 Vue.config.productionTip = false
-// 啊啊啊
+// 啊啊啊1111
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
