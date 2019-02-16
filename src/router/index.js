@@ -1,6 +1,7 @@
+// 导入组件
 import Vue from 'vue'
 import Router from 'vue-router'
-
+import Login from '@/components/login.vue'
 Vue.use(Router)
 
 export default new Router({
@@ -8,6 +9,11 @@ export default new Router({
     {
       path: '/',
       name: 'hemo',
+    },{
+      path: '/login',
+      name: 'login',
+      component: Login
     }
+    
   ]
 })

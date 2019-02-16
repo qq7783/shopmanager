@@ -6,7 +6,8 @@ import router from './router'
 // 导入element-ui
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
-Vue.use(ElementUI)
+// 使用element-ui插件
+Vue.use(ElementUI);
 
 Vue.config.productionTip = false
 // 啊啊啊1111
