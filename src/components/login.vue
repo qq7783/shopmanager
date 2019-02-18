@@ -26,7 +26,11 @@ export default {
     };
   },
   methods:{
-    headLogin() {}
+    async headLogin() {
+      console.log(this.formData)
+      const res = await this.$http.post(`login`,this.formData)
+        console.log(res)
+    }
   }
 };
 </script>
